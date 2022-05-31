@@ -1,0 +1,129 @@
+h1 {
+    color: #17bd48;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ /* 0,0,1 */
+
+h2{ 
+    color: #17bd48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4 { 
+    color: #17bd48;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* mengubah style dari tag h1 */
+
+
+#HeaderKuda {
+    color: aqua;
+}
+/* mengubah style dari id HeaderKuda */
+.KelasKuda {
+   color: pink; 
+}
+
+/* mengubah style dari sebuah class */
+.text-black {
+    color:black;
+    font-weight: 1000;
+    font-size: 16;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: blue;
+}
+
+.card 
+{
+    border: 2px solid lightgray;
+    /* padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 5px 5px;
+    /* //top //right //bottom //left */
+    width: 300px;
+    height: 300px;
+
+    /* margin: 30px; */
+    border-top-left-radius: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+/* .button-card {
+width: 300px; 
+height: 100px; 
+background-color: black;
+border-radius: 10px;
+padding-left: 10px;
+padding-top: 10px;
+/* cursor: pointer; */
+/* } */
+
+/* .button-card-title {
+color: white;
+font-size: 21px;
+font-weight: 500;
+
+}
+
+.button-card-subtitle {
+    color :bisque;
+    font-size: 15px;
+}
+
+.button-card:hover {
+    background-color:salmon;
+    cursor: pointer;
+    text-transform: uppercase;
+} */
+
+.button-card 
+{
+    border: 1px solid darkred;
+    width: 250px;
+    height: 100px;
+    background-color: rgba(110, 74, 27, 0.354);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: yellow;
+    cursor: pointer;
+}
+
+.button-card:hover{
+    background-color: darkorange;
+}
+.button-title
+{
+    font-size: 21px;  
+    font-weight: 900; 
+    color:darkred;
+}
+
+.button-sub {
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+
+
+.button-card:active{
+    background-color:#17bd48;
+    text-transform: uppercase;
+}
+
+
+/* global selector */
+/* * = all */
+/* 0,0,0 */
